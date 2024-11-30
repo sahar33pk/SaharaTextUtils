@@ -1,0 +1,33 @@
+.menue {
+  justify-content: space-between;
+}
+.menue ul li{
+  padding: 15px;
+  color: #000;
+  text-decoration: none;
+  margin: 2px;
+}
+.menue ul a{
+  text-decoration: none;
+}
+.menue ul li:hover{
+  background: #7b08cd;
+  color: white;
+  border-radius: 10px;
+}
+.menue img{
+  align-items: center;
+}
+.menue button{
+  margin-left: auto;
+}
+.contact{
+  width: 180px;
+  height: 150px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 150px;
+
+}
