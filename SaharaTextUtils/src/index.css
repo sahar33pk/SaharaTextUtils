@@ -9,10 +9,11 @@
 }
 .menue ul a{
   text-decoration: none;
+  color: red;
 }
 .menue ul li:hover{
-  background: #7b08cd;
-  color: white;
+  background: #c091f0;
+  color: rgb(139, 14, 14);
   border-radius: 10px;
 }
 .menue img{
@@ -22,12 +23,11 @@
   margin-left: auto;
 }
 .contact{
-  width: 180px;
-  height: 150px;
   display: grid;
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-top: 150px;
-
+  margin-top: 100px;
+  text-align: left;
+  padding: 10px;
 }
