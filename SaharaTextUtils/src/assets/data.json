@@ -1,0 +1,41 @@
+{
+  "jobs":[{
+    "key":1,
+    "name":"sahar",
+    "job":"FrontEnd Developer",
+    "location":"United Kingdum",
+    "contact":46485038450,
+    "salary":32890
+  },
+  {
+    "key":2,
+    "name":"Mahrukh",
+    "job":"BackEnd Developer",
+    "location":"United State America",
+    "contact":2345038450,
+    "salary":89839
+  },
+  {
+    "key":3,
+    "name":"Raja",
+    "job":"MERN Stack Developer",
+    "location":"UAE",
+    "contact":7392798472,
+    "salary":304983
+  },
+  {
+    "key":4,
+    "name":"Sahara",
+    "job":"Fullstack Developer",
+    "location":"Saude Arab",
+    "contact":289289
+  },
+  {
+    "key":5,
+    "name":"sahar",
+    "job":"Oracle Developer",
+    "location":"Saude Arab",
+    "contact":3473897
+  }
+]
+}

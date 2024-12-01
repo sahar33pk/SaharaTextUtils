@@ -8,6 +8,8 @@ const Navnar = (props) => {
       <img src={lion} alt="" style={{height:'50px'}} />
       <NavLink to='/'> <li className={`nav-item text-${props.color==="light"?"dark":"light"}`}>Home</li></NavLink>
       <NavLink to='contact' >  <li className={`nav-item text-${props.color==="light"?"dark":"light"}`}>Contact</li></NavLink>
+      <NavLink to='job' >  <li className={`nav-item text-${props.color==="light"?"dark":"light"}`}>Job</li></NavLink>
+
       <button className={` btn btn-${props.color==="light"?"dark":"light"} `} onClick={props.showcolor}> {props.text==="EnableDarkMode"? "EnableDarkMode":"EnableLightMode"}</button>
 </ul>
 

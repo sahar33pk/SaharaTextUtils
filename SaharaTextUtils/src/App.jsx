@@ -2,8 +2,13 @@ import React, { useState } from 'react'
 import Navnar from './Component/Navnar'
 import {Routes,Route} from "react-router-dom"
 import Home from './Component/Home'
-import Contact from './Component/Contact'
 import Alert from './Component/Alert'
+import ContactsLayout from './RootLayout/ContactsLayout'
+import ContactForm from './Component/ContactForm'
+import ContactContact from './Component/ContactContact'
+import Jobs from './Component/Jobs'
+import Page404 from './Component/Page404'
+
 const App = () => {
   var [color,setcolor]=useState('light')
   var [text,settext]=useState('EnableDarkMode')
@@ -41,7 +46,13 @@ const App = () => {
       <div className="container">
       <Routes>
         <Route path='/' element={<Home color={color} saharalert={showalert} />} />
-        <Route path='/contact' element={<Contact color={color} />} />
+        <Route path='contact' element={<ContactsLayout />} >
+        <Route path='form' element={<ContactForm />}/>
+        <Route path='contacts' element={<ContactContact />}/>
+        </Route>
+        <Route path="job" element={<Jobs />}  />
+
+        <Route path='*' element={<Page404/> }/>
       </Routes>
       </div>
     </div>

@@ -1,11 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const Contact = (props) => {
+const Contact = () => {
+  var navigate=useNavigate()
   return (
-    <div className='contact container' style={{color:props.color==="light"?"black":"white",background:props.color==="light"?"#f8f9fa":"purple",height:"200px",width:"200px",textAlign:"left",padding:"20px"}}>
-      <div className=''><b>Name:</b> Saher</div>
-      <div className=""><b>Education:</b>SE</div>
-      <div className=""><b>Contact:</b>+923156560</div>
+    <div className='container my-2'>
+      <button className='btn btn-info mx-1' onClick={()=>{navigate('form')}} >GotoForm</button>
+      <button className='btn btn-info ' onClick={()=>{navigate('contacts')}} >GotoContact</button>
     </div>
   )
 }
